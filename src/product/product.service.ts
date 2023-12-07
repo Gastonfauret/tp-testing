@@ -8,10 +8,38 @@ export class ProductService {
     private product: Product[] = [
         {
             id: '1',
-            name: 'Lata de Atun',
-            brand: 'Marolio',
+            name: 'Mate',
+            brand: 'Playadito',
+            type: 'Yerba',
+            stock: ProductStatus.Stock
+        },
+        {
+            id: '2',
+            name: 'Cafe',
+            brand: 'La Virginia',
             type: 'Pescado',
             stock: ProductStatus.Stock
+        },
+        {
+            id: '3',
+            name: 'Mermelada',
+            brand: 'BC',
+            type: 'Mermelada',
+            stock: ProductStatus.Faltante
+        },
+        {
+            id: '4',
+            name: 'Mayonesa',
+            brand: 'Not Co',
+            type: 'Mayonesa',
+            stock: ProductStatus.Stock
+        },
+        {
+            id: '5',
+            name: 'Jabon',
+            brand: 'Dove',
+            type: 'Jabon',
+            stock: ProductStatus.Faltante
         }
     ]
 
