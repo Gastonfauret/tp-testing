@@ -4,7 +4,7 @@ export enum ProductStatus {
 };
 
 export class Product {
-    id: number;
+    id: string;
     name: string;
     brand: string;
     type: string;
